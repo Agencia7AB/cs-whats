@@ -1,8 +1,8 @@
 {
     "version": 2,
-    "name": "node-js",
+    "name": "meu-site-estatico",
     "builds": [
-        { "src": "index.html", "use": "@vercel/node" }
+        { "src": "index.html", "use": "@vercel/static" }
     ],
     "routes": [
         { "src": "/(.*)", "dest": "/index.html" }
