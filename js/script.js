@@ -1,4 +1,4 @@
-const MANIFEST_URL = "manifest.json";
+const MANIFEST_URL = require("../manifest.json");
 const BASE_DIR = "txt/";
 const MAX_SNIPPETS_PER_FILE = 3;
 const SNIPPET_CHARS_BEFORE = 80;
