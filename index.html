@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+		<title>OSF - CS</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="logo-top">
+				<img src="img/logo.png" alt="OSF" class="logo-blend">
+			</div>
+			<div class="wrap">
+				<div class="row">
+					<input id="q" type="search" placeholder="Buscar… (ex.: documento, cita, pix, error)">
+					<select id="lang">
+						<option value="">Idioma (todos)</option>
+						<option value="pt">PT</option>
+						<option value="es">ES</option>
+						<option value="en">EN</option>
+					</select>
+					<select id="cat">
+						<option value="">Categoria (todas)</option>
+						<option>suporte/ajuda</option>
+						<option>documentos/dados</option>
+						<option>mídia/arquivo</option>
+						<option>agendamento/horário</option>
+						<option>prazo/entrega</option>
+						<option>cadastro/acesso</option>
+						<option>pagamento/preço</option>
+						<option>reembolso/cancelamento</option>
+						<option>endereço/localização</option>
+					</select>
+					<button id="genBtn" class="btn btn--accent" title="Gerar manifest.json varrendo /messages">Gen</button>
+				</div>
+				<div class="count" id="count">Carregando…</div>
+			</div>
+		</header>
+
+		<main class="wrap">
+			<div id="results" class="results"></div>
+		</main>
+
+		<footer>OSF - CS Mensagens • 2025</footer>
+
+		<script src="js/script.js"></script>
+	</body>
+
+</html>
